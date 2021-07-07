@@ -35,3 +35,9 @@
 .margin-bottom-75 {
     margin-bottom: 75px;
 }
+
+
+/* block loading page transition, will be removed by the script  */
+.block-transition * {
+    transition: none;
+}
