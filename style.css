@@ -60,11 +60,37 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(.4) sepia(.5);
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    border-radius: 1.5em;
+    filter: grayscale(.5) sepia(.4);
+}
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+
+    transition: 2s;
 }
+.ex-9-img:hover {
+    border-radius: 1.5em;
+    filter: grayscale(.5) sepia(.4);
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
