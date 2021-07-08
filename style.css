@@ -190,11 +190,11 @@
 }
 @keyframes rotateBottom {
     30% {
-        right: calc(100% - 30px);
+        right: calc(100% - 40px);
         bottom: -10px;
     }
     45% {
-        right: calc(100% - 30px);
+        right: calc(100% - 40px);
         bottom: 100%;
     }
     75% {
